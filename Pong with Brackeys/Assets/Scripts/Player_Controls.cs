@@ -26,7 +26,6 @@ public class Player_Controls : MonoBehaviour
         else
         {
             rigbody.velocity = new Vector2(0, 0);
-            
         }
     }
 
