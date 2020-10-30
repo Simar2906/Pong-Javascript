@@ -5,7 +5,7 @@ static var playerScore02: int = 0;
 private var theBall: Transform = null;
 var theSkin: GUISkin;
 
-private function Start() {
+function Start() {
 	theBall = GameObject.FindGameObjectWithTag("Ball").transform;
 }
 static function Score(wallName: String) {
