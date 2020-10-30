@@ -278,7 +278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dc95b18f09a18241a16a5d5e5562c52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ballSpeed: 50
+  ballSpeed: 150
   click: {fileID: 20542315}
 --- !u!1 &134259020
 GameObject:
@@ -552,8 +552,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1161943371}
   - 61: {fileID: 1161943370}
-  - 114: {fileID: 1161943373}
   - 82: {fileID: 1161943372}
+  - 114: {fileID: 1161943374}
   m_Layer: 0
   m_Name: rightWall
   m_TagString: Untagged
@@ -662,7 +662,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &1161943373
+--- !u!114 &1161943374
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -670,7 +670,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1161943369}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 639168040feb4ff42a40dac263d204b3, type: 3}
+  m_Script: {fileID: 11500000, guid: 708d7fb8019569e4b80427173704cf47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   score: {fileID: 1161943372}
@@ -686,6 +686,7 @@ GameObject:
   - 114: {fileID: 1167099766}
   - 82: {fileID: 1167099769}
   - 114: {fileID: 1167099770}
+  - 114: {fileID: 1167099771}
   m_Layer: 0
   m_Name: _GameManager
   m_TagString: Untagged
@@ -717,7 +718,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1167099765}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 551f0c7cbc0edbb44802663d4e6958ed, type: 3}
   m_Name: 
@@ -832,6 +833,18 @@ MonoBehaviour:
   rightWall: {fileID: 1161943370}
   Player01: {fileID: 1451479529}
   Player02: {fileID: 2100805629}
+--- !u!114 &1167099771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1167099765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 430615331d1862245a36c0e16b6bb24e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theSkin: {fileID: 11400000, guid: 834b0310a25f98f4b8a66ac998032d5c, type: 2}
 --- !u!1 &1352739680
 GameObject:
   m_ObjectHideFlags: 0
@@ -841,8 +854,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 1352739682}
   - 61: {fileID: 1352739681}
-  - 114: {fileID: 1352739684}
   - 82: {fileID: 1352739683}
+  - 114: {fileID: 1352739685}
   m_Layer: 0
   m_Name: leftWall
   m_TagString: Untagged
@@ -951,7 +964,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &1352739684
+--- !u!114 &1352739685
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -959,7 +972,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1352739680}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 639168040feb4ff42a40dac263d204b3, type: 3}
+  m_Script: {fileID: 11500000, guid: 708d7fb8019569e4b80427173704cf47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   score: {fileID: 1352739683}
