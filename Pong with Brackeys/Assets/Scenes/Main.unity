@@ -279,7 +279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ballSpeed: 50
-  click: {fileID: 0}
+  click: {fileID: 20542315}
 --- !u!1 &134259020
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,6 +527,18 @@ Prefab:
     - target: {fileID: 11447874, guid: 0a04ee5c986362d45b94a67a8ab37129, type: 2}
       propertyPath: moveDown
       value: 115
+      objectReference: {fileID: 0}
+    - target: {fileID: 11444932, guid: 0a04ee5c986362d45b94a67a8ab37129, type: 2}
+      propertyPath: moveUp
+      value: 119
+      objectReference: {fileID: 0}
+    - target: {fileID: 11444932, guid: 0a04ee5c986362d45b94a67a8ab37129, type: 2}
+      propertyPath: moveDown
+      value: 115
+      objectReference: {fileID: 0}
+    - target: {fileID: 11444932, guid: 0a04ee5c986362d45b94a67a8ab37129, type: 2}
+      propertyPath: speed
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0a04ee5c986362d45b94a67a8ab37129, type: 2}
@@ -1003,6 +1015,18 @@ Prefab:
       value: 273
       objectReference: {fileID: 0}
     - target: {fileID: 11409180, guid: 0a04ee5c986362d45b94a67a8ab37129, type: 2}
+      propertyPath: moveDown
+      value: 274
+      objectReference: {fileID: 0}
+    - target: {fileID: 11444932, guid: 0a04ee5c986362d45b94a67a8ab37129, type: 2}
+      propertyPath: speed
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 11444932, guid: 0a04ee5c986362d45b94a67a8ab37129, type: 2}
+      propertyPath: moveUp
+      value: 273
+      objectReference: {fileID: 0}
+    - target: {fileID: 11444932, guid: 0a04ee5c986362d45b94a67a8ab37129, type: 2}
       propertyPath: moveDown
       value: 274
       objectReference: {fileID: 0}
