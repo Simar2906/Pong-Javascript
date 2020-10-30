@@ -278,6 +278,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1dc95b18f09a18241a16a5d5e5562c52, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ballSpeed: 50
+  click: {fileID: 0}
 --- !u!1 &134259020
 GameObject:
   m_ObjectHideFlags: 0
