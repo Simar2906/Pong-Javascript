@@ -11,7 +11,7 @@ function Start()
 	goBall();
 }
 function OnCollisionEnter2D(colInfo : Collision2D) {
-	if (colInfo.collider.tag == "Player") 
+	if (colInfo.collider.tag == "Player" || colInfo.collider.tag == "Bot") 
 	{
 		var v :Vector3 = GetComponent.<Rigidbody2D>().velocity;
 		v.y = myRigidbody.velocity.y / 2 + colInfo.collider.attachedRigidbody.velocity.y / 3; // addes spin due to paddle

@@ -391,6 +391,18 @@ Prefab:
       propertyPath: speed
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 5069942, guid: 0a04ee5c986362d45b94a67a8ab37129, type: 2}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5069942, guid: 0a04ee5c986362d45b94a67a8ab37129, type: 2}
+      propertyPath: m_Constraints
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11444932, guid: 0a04ee5c986362d45b94a67a8ab37129, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0a04ee5c986362d45b94a67a8ab37129, type: 2}
   m_IsPrefabParent: 0
@@ -866,6 +878,18 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 139000, guid: 0a04ee5c986362d45b94a67a8ab37129, type: 2}
+      propertyPath: m_TagString
+      value: Bot
+      objectReference: {fileID: 0}
+    - target: {fileID: 5069942, guid: 0a04ee5c986362d45b94a67a8ab37129, type: 2}
+      propertyPath: m_Constraints
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5069942, guid: 0a04ee5c986362d45b94a67a8ab37129, type: 2}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11444932, guid: 0a04ee5c986362d45b94a67a8ab37129, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 0a04ee5c986362d45b94a67a8ab37129, type: 2}
@@ -930,6 +954,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myball: {fileID: 705340974}
   speed: 10
+  diff: 0
 --- !u!4 &2100805629 stripped
 Transform:
   m_PrefabParentObject: {fileID: 468300, guid: 0a04ee5c986362d45b94a67a8ab37129, type: 2}
