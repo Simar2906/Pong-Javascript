@@ -12,14 +12,29 @@ public class Bot : MonoBehaviour {
 	}
 	
 	void Update () {
-		if(myball.position.y < myRigidbody.position.y)//ball below paddle then paddle move towards ball
+		if(myball.position.x > 0)
 		{
-			//Debug.Log("ball below");
-			myRigidbody.velocity = new Vector2(0, speed * -1);
+			if(myball.position.y < myRigidbody.position.y)//ball below paddle then paddle move towards ball
+			{
+				//Debug.Log("ball below");
+				myRigidbody.velocity = new Vector2(0, speed * -1f);
+			}
+			else if(myball.position.y > myRigidbody.position.y)//ball above paddle then paddle move towards ball
+			{
+				myRigidbody.velocity = new Vector2(0, speed);
+			}
 		}
-		else if(myball.position.y > myRigidbody.position.y)//ball above paddle then paddle move towards ball
+		else
 		{
-			myRigidbody.velocity = new Vector2(0, speed);
+			if(myRigidbody.position.y>0)//paddle above 0, then paddle move down
+			{
+				myRigidbody.velocity = new Vector2(0, speed * -1f);
+			}
+			else if(myRigidbody.position.y<0)//paddle below 0, then paddle moves up
+			{
+				myRigidbody.velocity = new Vector2(0, speed);
+			}
 		}
+
 	}
 }
