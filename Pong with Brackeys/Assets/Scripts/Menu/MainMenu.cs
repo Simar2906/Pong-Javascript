@@ -4,11 +4,13 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour {
 
-	// Use this for initialization
-	public void PlayGame () {
-		SceneManager.LoadScene (sceneName:"Main");
+	public void PlaySinglePlayer () {
+		SceneManager.LoadScene (2);
 	}
 
+	public void Play2Player (){
+		SceneManager.LoadScene (1);
+	}
 	public void QuitGame(){
 		Debug.Log ("Quit");
 		Application.Quit ();
