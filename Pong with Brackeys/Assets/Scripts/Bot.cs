@@ -5,7 +5,7 @@ public class Bot : MonoBehaviour {
 
 	private Rigidbody2D myRigidbody = null;
 	public Transform myball = null;
-	public float speed = 10f;
+	public float speed = 5f;
 	void Start () {
 		myRigidbody = GetComponent<Rigidbody2D>();
 
