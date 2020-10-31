@@ -16,20 +16,7 @@ function OnCollisionEnter2D(colInfo: Collision2D) {
 		GetComponent.<Rigidbody2D>().velocity = v;
 		click.pitch = Random.Range(0.8, 1.2);
 		click.Play();
-		return;
 	}
-	var wallName: String = colInfo.gameObject.name;
-	var offsetY: float = 0;
-	//Debug.Log("wallcollision");
-	if (wallName == "bottomWall" && transform.position.y > colInfo.gameObject.transform.position.y) {
-		offsetY = colInfo.gameObject.transform.position.y - transform.position.y;
-	}
-	else if (wallName == "topWall" && transform.position.y < colInfo.gameObject.transform.position.y) {
-		offsetY = transform.position.y - colInfo.gameObject.transform.position.y;
-	}
-	var fixedY: float = transform.position.y - offsetY;
-	transform.position = new Vector2(transform.position.x, fixedY);
-	offsetY = 0;
 }
 function Update() {
 	myRigidbody = GetComponent.<Rigidbody2D>();
@@ -61,7 +48,4 @@ function ResetBall() {
 
 	yield WaitForSeconds(0.5);
 	goBall();
-}
-function UnstickFromWall(collision: Collision2D) {
-	
 }
