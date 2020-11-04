@@ -1064,7 +1064,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 5069942, guid: 0a04ee5c986362d45b94a67a8ab37129, type: 2}
       propertyPath: m_IsKinematic
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11444932, guid: 0a04ee5c986362d45b94a67a8ab37129, type: 2}
@@ -1123,7 +1123,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1997343731}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e85d6d783b78e5a4289332210186f808, type: 3}
   m_Name: 
@@ -1131,6 +1131,19 @@ MonoBehaviour:
   myball: {fileID: 705340974}
   speed: 2
   diff: 0
+--- !u!114 &1997343733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1997343731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72d2b032879d34840ab04275e13886bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myball: {fileID: 705340974}
+  speed: 5
 --- !u!4 &2100805629 stripped
 Transform:
   m_PrefabParentObject: {fileID: 468300, guid: 0a04ee5c986362d45b94a67a8ab37129, type: 2}
