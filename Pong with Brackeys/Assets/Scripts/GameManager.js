@@ -1,10 +1,13 @@
 ﻿#pragma strict
+
 import UnityEngine.UI;
 static var playerScore01: int = 0;
 static var playerScore02: int = 0;
 private var theBall: Transform = null;
-var theSkin: GUISkin;
-public var Score_Board:Text = null;
+//var theSkin: GUISkin;
+public var Score_Board: Text = null;
+
+
 function Start() {
 	theBall = GameObject.FindGameObjectWithTag("Ball").transform;
 }
@@ -19,8 +22,8 @@ static function Score(wallName: String) {
 	Debug.Log("Player Score 2 is " + playerScore02);
 }
 
-function Update(){
-	print(playerScore01 + "-" + playerScore02);
+function Update() {
+	Score_Board.text = playerScore01 + "-" + playerScore02;
 }
 
 /*function OnGUI() {
