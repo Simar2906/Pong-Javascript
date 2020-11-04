@@ -37,3 +37,7 @@ function Update() {
 		theBall.SendMessage("ResetBall");
 	}
 }*/
+function Exit(){
+	playerScore01 = 0;
+	playerScore02 = 0;
+}
