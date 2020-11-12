@@ -465,26 +465,6 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1167099771}
-    - target: {fileID: 11496666, guid: fe78035da43d5914fad88479451a4c57, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 904032108}
-    - target: {fileID: 11496666, guid: fe78035da43d5914fad88479451a4c57, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadMenu
-      objectReference: {fileID: 0}
-    - target: {fileID: 11458026, guid: fe78035da43d5914fad88479451a4c57, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 904032108}
-    - target: {fileID: 11458026, guid: fe78035da43d5914fad88479451a4c57, type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: QuitGame
-      objectReference: {fileID: 0}
-    - target: {fileID: 11460224, guid: fe78035da43d5914fad88479451a4c57, type: 2}
-      propertyPath: m_Text
-      value: 0   0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fe78035da43d5914fad88479451a4c57, type: 2}
   m_IsPrefabParent: 0
@@ -494,12 +474,6 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 904032106}
   m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
---- !u!114 &904032108 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 11445212, guid: fe78035da43d5914fad88479451a4c57,
-    type: 2}
-  m_PrefabInternal: {fileID: 904032106}
-  m_Script: {fileID: 11500000, guid: 15f69570d95eb224ebc94244a5ca947c, type: 3}
 --- !u!1001 &958775597
 Prefab:
   m_ObjectHideFlags: 0
