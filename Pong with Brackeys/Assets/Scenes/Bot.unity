@@ -481,6 +481,10 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: QuitGame
       objectReference: {fileID: 0}
+    - target: {fileID: 11460224, guid: fe78035da43d5914fad88479451a4c57, type: 2}
+      propertyPath: m_Text
+      value: 0   0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fe78035da43d5914fad88479451a4c57, type: 2}
   m_IsPrefabParent: 0

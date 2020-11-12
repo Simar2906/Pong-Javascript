@@ -24,7 +24,7 @@ static function Score(wallName: String) {
 }
 
 function Update() {
-	Score_Board.text = playerScore01 + " - " + playerScore02;
+	Score_Board.text = playerScore01 + "   " + playerScore02;
 }
 
 /*function OnGUI() {
