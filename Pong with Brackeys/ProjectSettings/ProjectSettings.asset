@@ -622,6 +622,7 @@ PlayerSettings:
   XboxOnePersistentLocalStorageSize: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   intPropertyNames:
   - Standalone::ScriptingBackend
   - WebGL::ScriptingBackend
@@ -650,6 +651,8 @@ PlayerSettings:
 =======
 =======
 >>>>>>> parent of 5d5e7bc... Update ProjectSettings.asset
+=======
+>>>>>>> parent of 5d5e7bc... Update ProjectSettings.asset
   XboxOneXTitleMemory: 8
   XboxOneOverrideIdentityName: 
   XboxOneOverrideIdentityPublisher: 
@@ -672,6 +675,9 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 5d5e7bc... Update ProjectSettings.asset
+=======
 >>>>>>> parent of 5d5e7bc... Update ProjectSettings.asset
 =======
 >>>>>>> parent of 5d5e7bc... Update ProjectSettings.asset
